@@ -1,7 +1,7 @@
 {
     "name": "@klapeks/swagger",
     "description": "Swagger auto generator by Klapeks",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "commonjs",
     "author": "Klapeks",
     "license": "ISC",
