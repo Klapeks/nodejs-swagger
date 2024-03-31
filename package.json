@@ -1,0 +1,25 @@
+{
+    "name": "@klapeks/swagger",
+    "description": "Swagger auto generator by Klapeks",
+    "version": "0.0.1",
+    "type": "commonjs",
+    "author": "Klapeks",
+    "license": "ISC",
+    "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Klapeks/nodejs-swagger"
+    },
+    "dependencies": {
+        "swagger-ui-express": "^5.0.0",
+        "swagger-autogen": "^2.23.7"
+    },
+    "devDependencies": {
+        "@types/swagger-ui-express": "^4.1.6",
+        "@types/node": "^18.11.18",
+        "typescript": "^4.7.4"
+    },
+    "scripts": {
+        "test": "node --trace-warnings --require ts-node/register index.test.ts"
+    }
+}
